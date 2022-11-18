@@ -1,0 +1,2 @@
+
+collect "Katana" no_progress
