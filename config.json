@@ -34,13 +34,6 @@
 				"Description": "Enable Install ( Damian Wayne )"
 			},
 			{
-				"SettingID": "add-captmarvel",
-				"SettingName": "CAPTMARVEL",
-				"Type": "Checkbox",
-				"DefaultValue": true,
-				"Description": "Enable Install ( CAPTMARVEL )"
-			},
-			{
 				"SettingID": "add-katana",
 				"SettingName": "Katana",
 				"Type": "Checkbox",
@@ -88,16 +81,6 @@
 			"Disabled": "$MOD.add-robin-damian = false",
 			"Content": [{
 				"DataFilePath": "[Mod]\\Robin_Damian.txt",
-				"StartOffset": 6000,
-				"Replace": false
-			}]
-		},
-		{
-			"Action": "WriteToFile",
-			"TargetFile": "[Game]\\CHARS\\COLLECTION.TXT",
-			"Disabled": "$MOD.add-captmarvel = false",
-			"Content": [{
-				"DataFilePath": "[Mod]\\CAPTMARVEL.txt",
 				"StartOffset": 6000,
 				"Replace": false
 			}]
